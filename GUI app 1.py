@@ -6,7 +6,7 @@ from datetime import datetime
 
 def get_weather():
     city=city_entry.get()
-    api_key="42412a71ec9331ab7c1e04fec97602d3"
+    api_key=""
     base_url="https://api.openweathermap.org/data/2.5/weather?"
     url=base_url+"appid="+api_key+"&q="+city+"&units=metric"
     weather_label.config(text="Loading..........")
