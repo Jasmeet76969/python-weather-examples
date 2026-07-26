@@ -8,7 +8,7 @@ from datetime import datetime
 def get_weather():
     city = city_entry.get()
 
-    api_key = "42412a71ec9331ab7c1e04fec97602d3"
+    api_key = ""
 
     # base_url variable to store url
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
